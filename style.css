@@ -1,0 +1,57 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #f2f2f2;
+    transition: 0.3s;
+}
+
+.dark {
+    background-color: #121212;
+    color: white;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+#display {
+    font-size: 35px;
+    margin: 20px;
+    padding: 10px;
+    background-color: black;
+    color: lime;
+    display: inline-block;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.buttons button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #ddd;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.dark li {
+    background: #333;
+    color: white;
+}
+
+.hint {
+    font-size: 14px;
+    margin-top: 10px;
+}
